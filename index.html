@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function feettometer(feet) {
+            let meter = feet * 0.305;
+            return meter;
+        }
+        function metertofeet(meter) {
+            let feet = meter * 3.279;
+            return meter;
+        }
+        let feet = prompt("Nhập vào feet");
+        document.write(feet + " feet = " + feettometer(feet) + " meter")
+        let meter = prompt("Nhập vào meter");
+        document.write(meter + " meter = " + metertofeet(meter) + " feet")
+    </script>
+</body>
+
+</html>
